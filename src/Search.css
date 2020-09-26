@@ -1,6 +1,12 @@
+/* .searching{
+  padding-left: auto;
+  padding-right: auto;
+} */
+
+
 .searching p {
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
+  color: blueviolet;
+  font-family: fantasy;
   font-size: 20px;
   margin-right: 10px;
   margin-top: 0px;
@@ -8,15 +14,19 @@
   float: left;
 }
 
-span{
-font-size: 30px;
+.one{
+font-size: 20px;
 }
 
 .searching input{
   padding-top: 6px;
-  float: left
+  float: left; /*これ消すとボタンと位置が入れ替わる*/
 }
 
-.searching button{
-  float: left
+.Button-style{
+  height: 25px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
