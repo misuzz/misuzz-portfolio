@@ -1,11 +1,10 @@
-/* .searching{
-  padding-left: auto;
-  padding-right: auto;
-} */
+.searching{
+  text-align: center;
+}
 
 
 .searching p {
-  color: blueviolet;
+  color: rgb(33, 33, 223);
   font-family: fantasy;
   font-size: 20px;
   margin-right: 10px;
@@ -19,14 +18,30 @@ font-size: 20px;
 }
 
 .searching input{
-  padding-top: 6px;
-  float: left; /*これ消すとボタンと位置が入れ替わる*/
-}
+  display: inline-block;
+  height: 25px;
+  margin: auto; 
+  float: left; 
+} 
 
 .Button-style{
+  /* display: block; */
+  margin: 0 auto;
   height: 25px;
   cursor: pointer;
-  margin-bottom: 100px;
-  vertical-align: middle;
-  margin-left: 5px;
+  float: left;
+}
+
+.listview{
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 200px;
+  height: auto;
+
+}
+
+li{
+  display: block;
+  list-style:none;
 }

@@ -45,15 +45,13 @@ h2{
   align-items: center;
 } */
 
-h3{
-  color: rgb(15, 156, 27);
-  margin-bottom: 100px;
-
-}
-
 a{
   font-size: smaller;
   font-family: fantasy;
+}
+a:hover{
+  background-color: royalblue;
+  
 }
 
 .App-footer{
