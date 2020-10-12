@@ -1,0 +1,86 @@
+.MainPage {
+  background: linear-gradient(#05FBFF, #99ff99);
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.Animal-logo1 {
+  width: 180px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 10px;
+  padding-right: 0px;
+  /* display: inline-block; */
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+
+.Animal-logo2 {
+  width: 180px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 10px;
+  padding-right: 0px;
+  /* display: inline-block; */
+  position: absolute;
+  top: 200px;
+  right: 240px;
+}
+
+.title-container h1, h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  /* margin: 0px; */
+}
+
+.title-container h1 {
+  padding-top: 500px;
+  font-size: 80px;
+  display: inline;
+}
+
+.title-container h2 {
+  margin-top: 0px;
+  margin-bottom: 70px;
+  font-size: 60px;
+}
+
+.txt-container {
+  color: rgb(91, 87, 105);
+  line-height: 6px;
+  font-size: smaller;
+  margin-bottom: 50px;
+}
+
+.caution {
+  font-size: 10px;
+}
+
+.footer{
+  margin-bottom: 30px;
+}
+
+
+.footer a {
+  display: block;
+  font-size: smaller;
+  font-family: fantasy;
+  padding-top:5px;
+  
+}
+
+.footer a:hover {
+  background-color: rgb(167, 172, 247);
+  border-radius: 10px;
+}
+
+.footer span {
+  color: #de3761;
+}

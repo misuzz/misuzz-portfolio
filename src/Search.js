@@ -37,7 +37,7 @@ class Search extends React.Component {
                 if (entitie !== null) {
                     if (entitie.media !== undefined) {
                         entitie.media.forEach(element => {
-                            // console.log(element.media_url);
+                             console.log(element.media_url);
                             // this.setState({ isLoaded: true, items: element.media_url });
                             list.push(element.media_url);
                         })
@@ -60,25 +60,28 @@ class Search extends React.Component {
     // }};
 
     render() {
-        // Images = (
-        //     <div className='Imagesview'>
-        //         <img src =/>
-        //     </div >
-        // );
         return (
             <div className="searching" >
-                <p> Animal's Name Here<span class="one">⇒</span>
-                </p>
-                <input
-                    onChange={(event) => { this.setState({ content: event.target.value }) }} />
-                {/* (event.target.value)が入力された値を示してる */}
-                <button class="Button-style"
-                    type="button" onClick={() => this.requestTwitter(this.state.content)}> Search </button>
-                {this.state.items.map((x) => {
-                    return <li>
-                        <img src={x} className="listview" /></li>
-                }
+                <div className="searching-wrapper">
+                    <p> ↓Put in any words↓</p>
+
+                    <input
+                        onChange={(event) => { this.setState({ content: event.target.value }) }} />
+                    {/* (event.target.value)が入力された値を示してる */}
+
+                    <button class="Button-style"
+                        type="button" onClick={() => this.requestTwitter(this.state.content)}> Search </button>
+                </div>
+                <div className="image-wrapper">
+                    {this.state.items.map((x) => {
+                        return (
+                                <li>
+                                    <img src={x} />
+                                </li>
+                                )
+                    }
                 )}
+                </div>
             </div>
         );
     };

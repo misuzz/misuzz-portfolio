@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-// import './App.css';
-import Myplofile from './myplofile';
-import HOME from './HOME'
+import Myprofile from './Myprofile';
+import Main from './Main'
 
 class App extends React.Component {
   render() {
@@ -10,8 +9,8 @@ class App extends React.Component {
       <BrowserRouter>
         <div>
           <Switch>
-            <Route exact path={'/'} component={HOME} />
-            <Route path={'/myplofile'} component={Myplofile} />
+            <Route exact path={'/'} component={Main} />
+            <Route path={'/myplofile'} component={Myprofile} />
           </Switch>
         </div>
       </BrowserRouter>

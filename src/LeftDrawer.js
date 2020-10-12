@@ -110,7 +110,7 @@ export default function LeftDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Do You Know DeathNote?
+            MENU
           </Typography>
         </Toolbar>
       </AppBar>
@@ -130,7 +130,7 @@ export default function LeftDrawer() {
         </div>
         <Divider />
         <List>
-          {['L', '知っているか', '死神は', 'リンゴしか'].map((text, index) => (
+          {['A', 'B', 'C', 'D'].map((text, index) => (
             <ListItem button key={text}>
               <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
               <ListItemText primary={text} />
@@ -139,7 +139,7 @@ export default function LeftDrawer() {
         </List>
         <Divider />
         <List>
-          {['食べない', 'ことも', 'ない'].map((text, index) => (
+          {['E', 'F', 'G'].map((text, index) => (
             <ListItem button key={text}>
               <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
               <ListItemText primary={text} />
