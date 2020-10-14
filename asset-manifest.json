@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/misuzz-portfolio/static/css/main.b6b47ec9.chunk.css",
-    "main.js": "/misuzz-portfolio/static/js/main.e5de123c.chunk.js",
-    "main.js.map": "/misuzz-portfolio/static/js/main.e5de123c.chunk.js.map",
+    "main.js": "/misuzz-portfolio/static/js/main.ae732319.chunk.js",
+    "main.js.map": "/misuzz-portfolio/static/js/main.ae732319.chunk.js.map",
     "runtime-main.js": "/misuzz-portfolio/static/js/runtime-main.ffcb67cf.js",
     "runtime-main.js.map": "/misuzz-portfolio/static/js/runtime-main.ffcb67cf.js.map",
     "static/js/2.16c8a50f.chunk.js": "/misuzz-portfolio/static/js/2.16c8a50f.chunk.js",
     "static/js/2.16c8a50f.chunk.js.map": "/misuzz-portfolio/static/js/2.16c8a50f.chunk.js.map",
     "index.html": "/misuzz-portfolio/index.html",
-    "precache-manifest.5fd1f53b2d37a554820c5647527bef32.js": "/misuzz-portfolio/precache-manifest.5fd1f53b2d37a554820c5647527bef32.js",
+    "precache-manifest.902a086bb590b32d73501ea5a9e37f38.js": "/misuzz-portfolio/precache-manifest.902a086bb590b32d73501ea5a9e37f38.js",
     "service-worker.js": "/misuzz-portfolio/service-worker.js",
     "static/css/main.b6b47ec9.chunk.css.map": "/misuzz-portfolio/static/css/main.b6b47ec9.chunk.css.map",
     "static/js/2.16c8a50f.chunk.js.LICENSE.txt": "/misuzz-portfolio/static/js/2.16c8a50f.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.ffcb67cf.js",
     "static/js/2.16c8a50f.chunk.js",
     "static/css/main.b6b47ec9.chunk.css",
-    "static/js/main.e5de123c.chunk.js"
+    "static/js/main.ae732319.chunk.js"
   ]
 }
