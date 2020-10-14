@@ -60,7 +60,7 @@ class Myprofile extends React.Component {
                             <tr>
                                 <th>my Twitter</th>
                                 <td>
-                                    <a href="https://twitter.com/porfolio1" target="_blank" rel="noopener noreferrer">my twitter account</a>
+                                    <a href="https://twitter.com/misuzz93" target="_blank" rel="noopener noreferrer">my twitter account</a>
                                 </td>
                             </tr>
                             <tr>
