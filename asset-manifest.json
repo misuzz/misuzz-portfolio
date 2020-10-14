@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6b47ec9.chunk.css",
-    "main.js": "/static/js/main.2978fd6c.chunk.js",
-    "main.js.map": "/static/js/main.2978fd6c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.901d9af7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.901d9af7.js.map",
-    "static/js/2.4cb17444.chunk.js": "/static/js/2.4cb17444.chunk.js",
-    "static/js/2.4cb17444.chunk.js.map": "/static/js/2.4cb17444.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2b679cb8d2b061ff4d49356f45c94885.js": "/precache-manifest.2b679cb8d2b061ff4d49356f45c94885.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.b6b47ec9.chunk.css.map": "/static/css/main.b6b47ec9.chunk.css.map",
-    "static/js/2.4cb17444.chunk.js.LICENSE.txt": "/static/js/2.4cb17444.chunk.js.LICENSE.txt",
-    "static/media/Animal-img": "/static/media/Animal-img.16c8a254.bin"
+    "main.css": "/misuzz-portfolio/static/css/main.b6b47ec9.chunk.css",
+    "main.js": "/misuzz-portfolio/static/js/main.bee8e86d.chunk.js",
+    "main.js.map": "/misuzz-portfolio/static/js/main.bee8e86d.chunk.js.map",
+    "runtime-main.js": "/misuzz-portfolio/static/js/runtime-main.ffcb67cf.js",
+    "runtime-main.js.map": "/misuzz-portfolio/static/js/runtime-main.ffcb67cf.js.map",
+    "static/js/2.16c8a50f.chunk.js": "/misuzz-portfolio/static/js/2.16c8a50f.chunk.js",
+    "static/js/2.16c8a50f.chunk.js.map": "/misuzz-portfolio/static/js/2.16c8a50f.chunk.js.map",
+    "index.html": "/misuzz-portfolio/index.html",
+    "precache-manifest.e43204c4f1a81923b0ade9fb16992102.js": "/misuzz-portfolio/precache-manifest.e43204c4f1a81923b0ade9fb16992102.js",
+    "service-worker.js": "/misuzz-portfolio/service-worker.js",
+    "static/css/main.b6b47ec9.chunk.css.map": "/misuzz-portfolio/static/css/main.b6b47ec9.chunk.css.map",
+    "static/js/2.16c8a50f.chunk.js.LICENSE.txt": "/misuzz-portfolio/static/js/2.16c8a50f.chunk.js.LICENSE.txt",
+    "static/media/Animal-img": "/misuzz-portfolio/static/media/Animal-img.16c8a254.bin"
   },
   "entrypoints": [
-    "static/js/runtime-main.901d9af7.js",
-    "static/js/2.4cb17444.chunk.js",
+    "static/js/runtime-main.ffcb67cf.js",
+    "static/js/2.16c8a50f.chunk.js",
     "static/css/main.b6b47ec9.chunk.css",
-    "static/js/main.2978fd6c.chunk.js"
+    "static/js/main.bee8e86d.chunk.js"
   ]
 }
