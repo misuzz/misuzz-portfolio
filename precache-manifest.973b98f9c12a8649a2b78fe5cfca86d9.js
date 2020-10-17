@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd5bb09e60c2ff5d45f956a848b2fd2e",
+    "revision": "4c888b7d35a615b45a41ee22080c7ad9",
     "url": "/misuzz-portfolio/index.html"
   },
   {
-    "revision": "e6707cb3372bb28cab6a",
+    "revision": "1baf349cf47957ba57c7",
     "url": "/misuzz-portfolio/static/css/main.31632270.chunk.css"
   },
   {
-    "revision": "887f29b7f410283e5946",
-    "url": "/misuzz-portfolio/static/js/2.87b80c0f.chunk.js"
+    "revision": "eac384c01c3ba05aeb0d",
+    "url": "/misuzz-portfolio/static/js/2.e37a1df2.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/misuzz-portfolio/static/js/2.87b80c0f.chunk.js.LICENSE.txt"
+    "url": "/misuzz-portfolio/static/js/2.e37a1df2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e6707cb3372bb28cab6a",
-    "url": "/misuzz-portfolio/static/js/main.a4c5acd1.chunk.js"
+    "revision": "1baf349cf47957ba57c7",
+    "url": "/misuzz-portfolio/static/js/main.21170533.chunk.js"
   },
   {
     "revision": "017ce7108879c5cb2c07",
