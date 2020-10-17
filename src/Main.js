@@ -24,15 +24,11 @@ class Main extends React.Component {
           <div className="title-container">
             <img src={Animal} className="Animal-logo1" alt="木に群がる動物" />
             <h1>Serching Images</h1>
-            <h2>through Twitter</h2>
             <img src={Animal} className="Animal-logo2" alt="木に群がる動物" />
+            <h2>through Pixabay</h2>
           </div>
           <div className="txt-container">
-            <p>You can search images from the 100 recent tweets</p>
-            <p> which were tweeted with a keyword you put in below.</p>
-            <div className="caution">
-              <p>※Please excuse my no setting safesearch filter.※</p>
-            </div>
+            <p>You can search copyleft images from Pixabay.</p>
           </div>
         </div>
 
@@ -45,7 +41,7 @@ class Main extends React.Component {
 
         {/* footer (screen transition) */}
         <footer className="footer">
-          <a
+          <a href="#"
             onClick={
               this.handleToAboutPage
             }
@@ -53,8 +49,11 @@ class Main extends React.Component {
             about <span > me </span>
           </a>
         </footer>
+        <a href="https://pixabay.com/">
+            <img src="https://pixabay.com/static/img/public/leaderboard_a.png" className="Pixabay"  alt="Pixabay" />
+          </a>
 
-      </div>
+      </div >
     )
   };
 };

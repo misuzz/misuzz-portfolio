@@ -1,7 +1,7 @@
 .serching {
- display: inline-block;
-
+  display: inline-block;
 }
+
 .searching-wrapper p {
   color: black;
   font-family: fantasy;
@@ -25,11 +25,10 @@
   border-radius: 3px;
 }
 
-.Button-style:active{
+.Button-style:active {
   box-shadow: none;
   position: relative;
-  top:3px;
-
+  top: 3px;
 }
 
 .image-wrapper {
@@ -50,4 +49,47 @@
   vertical-align: top;
   background-color: rgb(223, 223, 223);
   float: left;
+}
+
+@media screen and (max-width:480px) {
+  .searching-wrapper p {
+    color: black;
+    font-family: fantasy;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 5px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  .searching-wrapper input {
+    height: 20px;
+    margin: auto;
+  }
+  .Button-style {
+    margin: 0 2px;
+    height: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px rgb(129, 127, 127);
+    border-radius: 3px;
+  }
+  .image-wrapper {
+    width: 90%;
+    list-style: none;
+    padding: 0 5px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px dotted black;
+    border-radius: 4px;
+  }
+  
+  .image-wrapper li img {
+    height: 30px;
+    width: 15%;
+    margin: 2px;
+    border: 1px solid rgb(192, 192, 192);
+    object-fit: contain;
+    vertical-align: top;
+    background-color: rgb(223, 223, 223);
+    float: left;
+  }
 }

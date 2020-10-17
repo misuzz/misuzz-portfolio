@@ -9,16 +9,16 @@ class Myprofile extends React.Component {
     }
     render() {
         const MyprofileList = [
-            { y: "creater", z: "misuzz" },
-            { y: "age", z: "twenties" },
-            { y: "start date of learning engineering", z: "since late August in 2020" },
+            { y: "Creator", z: "misuzz" },
+            { y: "Age", z: "twenties" },
+            { y: "Start date of learning engineering", z: "since late August in 2020" },
             {
-                y: "reason why I created this",
-                z: "First, I wanted to create that you could search and know the zoo in Japan which there are animals you put in the search box in. However,there were no such APIs which covered where any animals were. Therefore, I changed what you could search, not changing the searching style that you put in words and could search something related to them."
+                y: "The process of how I created this",
+                z: "First, I wanted to create that you could search and know the zoo in Japan which there are animals you put in the search box in. However,there were no such APIs which covered where any animals were. Therefore, I changed what you could search, not changing the searching style that you put in words and could search something related to them. After I finished coding this site (,event though it's not perfect.), I faced CORS problem that you could not search anything with Twitter API. Beacuse of that, I started to use Pixabay API instead of it."
             },
             { y: "Learning programming languages", z: "JavaScript，HTML&CSS" },
-            {y: "Learning flamework", z:"React， Node.js"},
-            {y:"Learning database language", z:"mySQL"},
+            { y: "Learning flamework", z: "React， Node.js" },
+            { y: "Learning database language", z: "mySQL" },
         ];
         return (
             <div class="All">
@@ -38,8 +38,8 @@ class Myprofile extends React.Component {
                 <body>
                     <div className="profile-wrapper">
                         <div className="profile-title">
-                            <h1>THANK YOU FOR YOUR ACCESS</h1>
-                            <p>I will be glad if you enjoyed my work.</p>
+                            <h1><span className="under">THANK YOU FOR YOUR ACCESS</span> </h1>
+                            <p><span className="under">TI will be glad if you enjoyed my work.</span></p>
                         </div>
                     </div>
 
@@ -66,20 +66,32 @@ class Myprofile extends React.Component {
                             <tr>
                                 <th>my GitHub</th>
                                 <td>
-                                    <a href="https://github.com/misuzz"target="_blank" rel="noopener noreferrer">my GitHub account</a>
+                                    <a href="https://github.com/misuzz" target="_blank" rel="noopener noreferrer">my GitHub account</a>
                                 </td>
                             </tr>
                         </table>
+
                     </div>
-
-
                     <footer>
-                        <p>I have known there are many imprivements such as 'you cannot open any even though pushing 'LOGIN' button.'and so on. </p>
-                        <p>I have been fixing them. </p>
-                        <p>It would be appreciated if you would look over me.</p> 
+                        <p>I have been fixing many problems in this site. </p>
+                        <p>It would be appreciated if you would look over me.</p>
                         <p>Thank you.</p>
                     </footer>
+                    <div class="bubbles">
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+
+                </div>
+
+
                 </body>
+              
             </div >
         )
     }

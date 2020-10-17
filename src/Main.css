@@ -1,47 +1,32 @@
 .MainPage {
   background: linear-gradient(#05FBFF, #99ff99);
   min-height: 100vh;
-  font-size: calc(10px + 2vmin);
   display: flex;
   text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .Animal-logo1 {
-  width: 180px;
+  width: 150px;
   height: auto;
-  margin-left: 100px;
-  margin-top: 10px;
   padding-right: 0px;
-  /* display: inline-block; */
-  position: absolute;
-  top: 200px;
-  left: 150px;
 }
 
 .Animal-logo2 {
-  width: 180px;
+  width: 150px;
   height: auto;
-  margin-left: 100px;
-  margin-top: 10px;
-  padding-right: 0px;
-  /* display: inline-block; */
-  position: absolute;
-  top: 200px;
-  right: 240px;
+  margin-left: 0px;
 }
 
 .title-container h1, h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
-  /* margin: 0px; */
 }
 
 .title-container h1 {
-  padding-top: 500px;
   font-size: 80px;
   display: inline;
 }
@@ -55,26 +40,26 @@
 .txt-container {
   color: rgb(91, 87, 105);
   line-height: 6px;
-  font-size: smaller;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 
-.caution {
-  font-size: 10px;
+.Pixabay {
+  width: auto;
+  height: 50px;
 }
 
-.footer{
+.footer {
   margin-bottom: 30px;
 }
 
-
 .footer a {
   display: block;
-  font-size: smaller;
+  font-size: 20px;
   font-family: fantasy;
-  padding-top:5px;
+  padding-top: 5px;
+  margin-bottom: 0px;
   cursor: pointer;
-  
 }
 
 .footer a:hover {
@@ -84,4 +69,40 @@
 
 .footer span {
   color: #de3761;
+}
+
+@media screen and (max-width:480px) {
+  .Animal-logo1 {
+    width: 15%;
+    height: auto;
+    padding-right: 0px;
+  }
+  .Animal-logo2 {
+    width: 15%;
+    height: auto;
+    padding-right: 0px;
+  }
+  .title-container h1 {
+    font-size: 30px;
+    display: inline;
+  }
+  .title-container h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .txt-container {
+    color: rgb(91, 87, 105);
+    line-height: 3px;
+    font-size: 2px;
+    margin-bottom: 20px;
+  }
+  .Pixabay {
+    width: auto;
+    height: 20px;
+  }
+  .footer a {
+    font-size: 10px;
+    margin-top: 0px;
+  }
 }

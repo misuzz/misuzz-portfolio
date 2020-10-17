@@ -6,7 +6,7 @@ import Main from './Main'
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/Main">
         <Switch>
           <Route exact path={'/'} component={Main} />
           <Route path={'/myplofile'} component={Myprofile} />
@@ -17,3 +17,6 @@ class App extends React.Component {
 }
 
 export default App;
+
+
+// {process.env.PUBLIC_URL}
