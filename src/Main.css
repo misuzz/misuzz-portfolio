@@ -7,6 +7,28 @@
   align-items: center;
   justify-content: center;
   padding-top: 100px;
+  overflow: hidden;
+}
+
+.scroll {
+  width: 100vh;
+}
+
+.movingCat {
+  /* display: flex; */
+  width: 100px;
+  height: auto;
+  overflow: hidden;
+  animation: scrollmovingCat 8s linear infinite;
+}
+
+@keyframes scrollmovingCat {
+  0% {
+    transform: translateX(600%);
+  }
+  100% {
+    transform: translateX(-600%);
+  }
 }
 
 .Animal-logo1 {
@@ -51,12 +73,9 @@
 
 .footer {
   margin-bottom: 30px;
-}
-
-.footer a {
   display: block;
-  font-size: 20px;
-  font-family: fantasy;
+  font-size: 10px;
+  font-family: serif;
   padding-top: 5px;
   margin-bottom: 0px;
   cursor: pointer;
@@ -71,14 +90,49 @@
   color: #de3761;
 }
 
+@media screen and (max-width:1112px) {
+  .title-container h1 {
+    font-size: 70px;
+    display: inline;
+  }
+  .movingCat {
+    width: 100px;
+    height: auto;
+    overflow: hidden;
+    animation: scrollmovingCat 8s linear infinite;
+  }
+  @keyframes scrollmovingCat {
+    0% {
+      transform: translateX(1000%);
+    }
+    100% {
+      transform: translateX(-1000%);
+    }
+  }
+}
+
 @media screen and (max-width:480px) {
+  .movingCat {
+    width: 60px;
+    height: auto;
+    overflow: hidden;
+    animation: scrollmovingCat 8s linear infinite;
+  }
+  @keyframes scrollmovingCat {
+    0% {
+      transform: translateX(1000%);
+    }
+    100% {
+      transform: translateX(-1000%);
+    }
+  }
   .Animal-logo1 {
-    width: 15%;
+    width: 10%;
     height: auto;
     padding-right: 0px;
   }
   .Animal-logo2 {
-    width: 15%;
+    width: 10%;
     height: auto;
     padding-right: 0px;
   }
@@ -94,15 +148,15 @@
   .txt-container {
     color: rgb(91, 87, 105);
     line-height: 3px;
-    font-size: 2px;
+    font-size: 10px;
     margin-bottom: 20px;
   }
   .Pixabay {
     width: auto;
     height: 20px;
   }
-  .footer a {
-    font-size: 10px;
-    margin-top: 0px;
+  .footer {
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import './Myprofile.css';
-import { withRouter } from 'react-router';
+import { Link } from 'react-router-dom';
+
 
 
 class Myprofile extends React.Component {
-    handleToAboutPage = () => {
-        this.props.history.push('/')
-    }
+    // handleToAboutPage = () => {
+    //     this.props.history.push('/')
+    // }
     render() {
         const MyprofileList = [
             { y: "Creator", z: "misuzz" },
@@ -24,15 +25,9 @@ class Myprofile extends React.Component {
             <div class="All">
                 <header>
                     <div className="profile-header">
-                        <a href="#"
-                            className="back-link"
-                            onClick={
-                                this.handleToAboutPage
-                            }
-                        >BACK</a>
+                        <Link to="/" className="back-link">BACK</Link>
                         <a href="#" className="login"
-                        >LOGIN
-                    </a>
+                        >LOGIN</a>
                     </div>
                 </header>
                 <body>
@@ -78,24 +73,24 @@ class Myprofile extends React.Component {
                         <p>Thank you.</p>
                     </footer>
                     <div class="bubbles">
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
-                    <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
 
-                </div>
+                    </div>
 
 
                 </body>
-              
+
             </div >
         )
     }
 
 }
 
-export default withRouter(Myprofile);
+export default Myprofile;

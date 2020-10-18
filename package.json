@@ -1,5 +1,6 @@
 {
   "name": "misuzu-portfolio",
+  "homepage": "https://misuzz.github.io/misuzz-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
