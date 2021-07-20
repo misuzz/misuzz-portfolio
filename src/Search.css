@@ -1,11 +1,11 @@
 
 .serching {
- display: inline-block;
-
+  display: inline-block;
 }
+
 .searching-wrapper p {
   color: black;
-  font-family: fantasy;
+  font-family: serif;
   font-size: 20px;
   font-weight: bold;
   line-height: 5px;
@@ -26,11 +26,10 @@
   border-radius: 3px;
 }
 
-.Button-style:active{
+.Button-style:active {
   box-shadow: none;
   position: relative;
-  top:3px;
-
+  top: 3px;
 }
 
 .image-wrapper {
@@ -55,7 +54,7 @@
 
 @media screen and (max-width:1112px) {
   .image-wrapper {
-    width: 90%;
+    width: 80%;
     list-style: none;
     padding: 0 5px;
     margin-top: 5px;

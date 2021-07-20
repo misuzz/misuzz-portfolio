@@ -1,47 +1,54 @@
 .MainPage {
   background: linear-gradient(#05FBFF, #99ff99);
   min-height: 100vh;
-  font-size: calc(10px + 2vmin);
   display: flex;
   text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.scroll {
+  width: 100vh;
+}
+
+.movingCat {
+  /* display: flex; */
+  width: 100px;
+  height: auto;
+  overflow: hidden;
+  animation: scrollmovingCat 8s linear infinite;
+}
+
+@keyframes scrollmovingCat {
+  0% {
+    transform: translateX(600%);
+  }
+  100% {
+    transform: translateX(-600%);
+  }
 }
 
 .Animal-logo1 {
-  width: 180px;
+  width: 150px;
   height: auto;
-  margin-left: 100px;
-  margin-top: 10px;
   padding-right: 0px;
-  /* display: inline-block; */
-  position: absolute;
-  top: 200px;
-  left: 150px;
 }
 
 .Animal-logo2 {
-  width: 180px;
+  width: 150px;
   height: auto;
-  margin-left: 100px;
-  margin-top: 10px;
-  padding-right: 0px;
-  /* display: inline-block; */
-  position: absolute;
-  top: 200px;
-  right: 240px;
+  margin-left: 0px;
 }
 
 .title-container h1, h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
-  /* margin: 0px; */
 }
 
 .title-container h1 {
-  padding-top: 500px;
   font-size: 80px;
   display: inline;
 }
@@ -55,27 +62,23 @@
 .txt-container {
   color: rgb(91, 87, 105);
   line-height: 6px;
-  font-size: smaller;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 
-.caution {
-  font-size: 10px;
+.Pixabay {
+  width: auto;
+  height: 50px;
 }
 
-.footer{
+.footer {
   margin-bottom: 30px;
-}
-
-
-.footer a {
   display: block;
-  font-size: 25px;
+  font-size: 10px;
   font-family: serif;
   padding-top: 5px;
   margin-bottom: 0px;
   cursor: pointer;
-
 }
 
 .footer a:hover {
@@ -85,10 +88,6 @@
 
 .footer span {
   color: #de3761;
-}
-
-a{
-  margin-bottom: 5px;
 }
 
 @media screen and (max-width:1112px) {
@@ -157,7 +156,7 @@ a{
     height: 20px;
   }
   .footer {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
 }

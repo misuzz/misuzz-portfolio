@@ -1,6 +1,6 @@
 import React from 'react';
 import './Myprofile.css';
-import { withRouter } from 'react-router';
+import { Link } from 'react-router-dom';
 
 
 class Myprofile extends React.Component {
@@ -94,7 +94,6 @@ class Myprofile extends React.Component {
 			</div >
 		)
 	}
-
 }
 
-export default withRouter(Myprofile);
+export default Myprofile;

@@ -1,19 +1,20 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Myprofile from './Myprofile';
 import Main from './Main'
 
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Switch>
-          <Route exact path={'/'} component={Main} />
-          <Route path={'/myplofile'} component={Myprofile} />
-        </Switch>
-      </BrowserRouter>
+      <HashRouter basename="/">
+        <Route exact path="/" component={Main} />
+        <Route path="/Myprofile" component={Myprofile} />
+      </HashRouter>
     );
   };
 }
 
 export default App;
+
+
+// {process.env.PUBLIC_URL}
