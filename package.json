@@ -3,10 +3,6 @@
   "homepage": "https://misuzz.github.io/misuzz-portfolio/",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-=======
-  "homepage": "https://misuzz.github.io/misuzz-portfolio/",
->>>>>>> master
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
