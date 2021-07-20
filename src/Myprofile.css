@@ -46,10 +46,6 @@
     border-bottom: dotted 4px aliceblue;
 }
 
-<<<<<<< HEAD
-.profile-title p {
-    line-height: 30px;
-=======
 /* .profile-title p {
     line-height: 30px;
 >>>>>>> Stashed changes
@@ -92,7 +88,6 @@
     bottom: 0;
 }
 
-<<<<<<< HEAD
 .bubbles {
     position: relative;
     width: 100%;
@@ -102,8 +97,6 @@
     bottom: 0;
 }
 
-=======
->>>>>>> master
 .bubble {
     position: relative;
     width: 40px;
@@ -204,17 +197,7 @@
         background-size: cover;
         text-align: center;
     }
-<<<<<<< HEAD
-    header {
-        height: 40px;
-        line-height: 40px;
-        font-size: 10px;
-    }
-    .login {
-        float: right;
-        background-color: rgb(202, 250, 114);
-        font-weight: bold;
-=======
+
     .profile-header {
         height: 50px;
         line-height: 40px;
@@ -231,8 +214,6 @@
         height: 50px;
         font-weight: bold;
         line-height: 50px;
-
->>>>>>> master
     }
     .profile-title h1 {
         font-size: 30px;
@@ -258,10 +239,7 @@
         font-size: 10px;
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> master
 .profile-contents th {
     background-color: #4091a0;
     color: white;
