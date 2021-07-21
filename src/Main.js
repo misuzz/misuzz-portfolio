@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import Search from './Search';　//.jsのファイルだからこの書き方（✗ import './Search.js'）//
+import Search from './Search';
 import Animal from './Animal-img';
 import LeftDrawer from './LeftDrawer';
 import { Link } from 'react-router-dom';
@@ -9,8 +9,6 @@ import { Link } from 'react-router-dom';
 class Main extends React.Component {
   // handleToAboutPage = () => {
   //   this.props.history.push('/Myplofile')
-
-
   render() {
     return (
       <div className="MainPage">
